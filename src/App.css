@@ -1,0 +1,61 @@
+body {
+  background-color: aliceblue;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+input {
+  border-radius: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.button {
+  margin-top: 10px;
+  background-color: #1c3560;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.users {
+  text-align: center;
+}
+
+.userButton {
+  margin-top: 10px;
+  background-color: #213f72;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 100px;
+}
+
+.userModification {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box {
+  margin: 5px;
+  width: 300px;
+}
+
+.userDisplay {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.editForm input {
+  width: 300px;
+}
